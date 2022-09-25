@@ -7,6 +7,6 @@ body:
     id: url
     attributes:
       label: URL
-      description: URL to an article or video
+      description: URL to a video
     validations:
       required: true
