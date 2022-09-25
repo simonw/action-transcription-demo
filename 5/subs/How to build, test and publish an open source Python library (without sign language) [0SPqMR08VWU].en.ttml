@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.400" end="00:00:04.640" style="s2">hello hi gotham uh my name is simon and <br />i&#39;m going to show you in just 10 minutes  </p>
+<p begin="00:00:04.640" end="00:00:07.920" style="s2">how to build test and publish <br />an open source python library  </p>
+<p begin="00:00:08.800" end="00:00:12.960" style="s2">um i&#39;m actually going to publish a library while <br />i record this talk and this is a piece of code  </p>
+<p begin="00:00:12.960" end="00:00:17.200" style="s2">which i&#39;ve been copying and pasting into projects <br />for over a decade now it&#39;s a very simple little  </p>
+<p begin="00:00:17.200" end="00:00:22.880" style="s2">thing that helps you create string based um <br />shortened versions of numeric identifiers  </p>
+<p begin="00:00:22.880" end="00:00:27.280" style="s2">i&#39;ll do a quick demonstration of what that looks <br />like um let&#39;s paste it into a jupiter notebook  </p>
+<p begin="00:00:27.280" end="00:00:35.920" style="s2">and now if i do pid.fromint one two three four it <br />says gxd and if i do pid.2 int of gxd it says one  </p>
+<p begin="00:00:35.920" end="00:00:41.280" style="s2">two three four so very simple piece of code let&#39;s <br />turn this into a package on the python package um  </p>
+<p begin="00:00:41.840" end="00:00:47.040" style="s2">on the python package index so i&#39;m going to create <br />a directory called pids i checked and this is a an  </p>
+<p begin="00:00:47.040" end="00:00:56.720" style="s2">available name right now and i&#39;m going to add that <br />file um let&#39;s create a new file called headstockpi  </p>
+<p begin="00:00:56.720" end="00:01:03.760" style="s2">we&#39;ll stick it in that folder and we&#39;ll paste <br />in that code so there&#39;s my code um creating a  </p>
+<p begin="00:01:03.760" end="00:01:09.280" style="s2">package all you need for sure is a setup.pie <br />file which describes how the package will work  </p>
+<p begin="00:01:09.280" end="00:01:13.600" style="s2">so i&#39;m going to create that and then i&#39;m going <br />to paste in this little template here this is the  </p>
+<p begin="00:01:13.600" end="00:01:20.080" style="s2">simplest possible version of a valid setup.my file <br />i&#39;m going to give it the name pids version 0.1  </p>
+<p begin="00:01:20.080" end="00:01:24.080" style="s2">it&#39;s a tiny python library in the description <br />and the only module i&#39;m going to include is  </p>
+<p begin="00:01:24.080" end="00:01:31.120" style="s2">that pid stop by file i just created so now in <br />here we have two files pit stop pi and setup.pi  </p>
+<p begin="00:01:31.120" end="00:01:38.160" style="s2">now if i run python3 setup.pi sdist this is where <br />the magic happens that command there created me a  </p>
+<p begin="00:01:38.160" end="00:01:45.040" style="s2">file called pids hyphen 0.1.gz and that is a <br />file which i can install into any environment  </p>
+<p begin="00:01:45.040" end="00:01:51.120" style="s2">to install this package i can actually demonstrate <br />that once again in this um jupyter notebook let&#39;s  </p>
+<p begin="00:01:51.120" end="00:02:01.840" style="s2">pop that open and we&#39;ll do pip install what&#39;s <br />that what was it slash dist slash um there we go</p>
+<p begin="00:02:04.160" end="00:02:10.800" style="s2">when that prices it installs it and now if i <br />type import pids i have pids.pid as a piece of  </p>
+<p begin="00:02:10.800" end="00:02:16.000" style="s2">code that i can start to run so let&#39;s upload this <br />to the python package index the way we do that is  </p>
+<p begin="00:02:16.000" end="00:02:21.440" style="s2">with a tool called twine i can say twine upload <br />dist and then pass it the name of that file that  </p>
+<p begin="00:02:21.440" end="00:02:27.840" style="s2">i&#39;ve just created when i do this it&#39;ll ask me to <br />log in with my username and my pi pi password so  </p>
+<p begin="00:02:27.840" end="00:02:33.520" style="s2">you&#39;ll need to create an account on pi pi before <br />you do this i do that it shows me the upload  </p>
+<p begin="00:02:33.520" end="00:02:38.000" style="s2">and it gives me a url and this is live on the <br />internet right now this is now package which  </p>
+<p begin="00:02:38.000" end="00:02:43.920" style="s2">anyone in the world can install by running pip <br />install pids but you&#39;ll notice it says here the  </p>
+<p begin="00:02:43.920" end="00:02:47.520" style="s2">author of this package has not provided <br />a project description we&#39;re missing our  </p>
+<p begin="00:02:47.520" end="00:02:53.920" style="s2">documentation so let&#39;s build that now as a simple <br />readme that we can add into that package so here&#39;s  </p>
+<p begin="00:02:53.920" end="00:03:00.720" style="s2">a tiny bit of documentation i wrote earlier i&#39;m <br />going to save that in a file called readme.md  </p>
+<p begin="00:03:01.440" end="00:03:06.160" style="s2">and vs code can give us a little preview of it <br />showing you what that looks like it&#39;s not very  </p>
+<p begin="00:03:06.160" end="00:03:11.600" style="s2">exciting but it does explain what&#39;s going on <br />so now we need to bundle that into our overall  </p>
+<p begin="00:03:11.600" end="00:03:18.080" style="s2">package the way we do that is by adding a tiny bit <br />more of a recipe to our setup.pi file um here we  </p>
+<p begin="00:03:18.080" end="00:03:24.800" style="s2">go i&#39;ll copy and paste this in so we can add two <br />more arguments here um there&#39;s description long  </p>
+<p begin="00:03:24.800" end="00:03:30.480" style="s2">description and long description content type <br />and here we&#39;re doing we&#39;re calling a function  </p>
+<p begin="00:03:30.480" end="00:03:35.360" style="s2">i&#39;ve written called get long description which <br />reads that readme file on disk and puts that in a  </p>
+<p begin="00:03:35.360" end="00:03:40.800" style="s2">variable so we add this little bit of boilerplate <br />and we set that as the long description um i&#39;m  </p>
+<p begin="00:03:40.800" end="00:03:47.360" style="s2">going to bump up the version number to 0.1.1 to <br />reflect that change and now once again we can  </p>
+<p begin="00:03:48.080" end="00:03:56.880" style="s2">run python3 setup.pi sdist um oh it doesn&#39;t like <br />that because i forgot the import os there can do  </p>
+<p begin="00:03:56.880" end="00:04:06.480" style="s2">that we now have a file in dist called 0.1.1 and <br />again if we do twine upload dist slash pids 1.1</p>
+<p begin="00:04:10.400" end="00:04:13.840" style="s2">and stick in those credentials one more time</p>
+<p begin="00:04:18.720" end="00:04:24.080" style="s2">this has given us our second base on pipe <br />ui and this release is it&#39;s improved it&#39;s  </p>
+<p begin="00:04:24.080" end="00:04:27.840" style="s2">got documentation the contents of that <br />readme is now available for people to see  </p>
+<p begin="00:04:29.280" end="00:04:34.400" style="s2">so for our next step let&#39;s add some tests i&#39;m <br />going to need a tiny bit more boilerplate for  </p>
+<p begin="00:04:34.400" end="00:04:40.000" style="s2">this i need to add pi test as a test dependency <br />so i&#39;ll paste this in here this is saying that  </p>
+<p begin="00:04:40.000" end="00:04:45.520" style="s2">the pids test dependencies are my test and now <br />i&#39;m going to create myself a python virtual  </p>
+<p begin="00:04:45.520" end="00:04:53.520" style="s2">environment i&#39;ll call it vien i&#39;ll do source via <br />flash bin activate it to activate it and i&#39;m going  </p>
+<p begin="00:04:53.520" end="00:04:59.760" style="s2">to type pimp install dash e for editable of my <br />current directory and its test dependencies so  </p>
+<p begin="00:04:59.760" end="00:05:06.720" style="s2">running this installs pi test now if i run pi test <br />it runs my tests except i don&#39;t have any tests yet  </p>
+<p begin="00:05:06.720" end="00:05:13.840" style="s2">so let&#39;s create a test folder and i&#39;m going to <br />create a file in that called test underscore pids  </p>
+<p begin="00:05:14.960" end="00:05:23.280" style="s2">in stockpi and the great thing about pi test is <br />that tests are really really small smart shorts so  </p>
+<p begin="00:05:23.280" end="00:05:30.560" style="s2">we could say test from int and it&#39;s <br />going to say assertpids.pid.fromint1234</p>
+<p begin="00:05:30.560" end="00:05:39.360" style="s2">equals and mzq so i&#39;ll try running that test <br />and it fails because i got it wrong it&#39;s gxd  </p>
+<p begin="00:05:39.360" end="00:05:44.560" style="s2">is the correct value i can stick gxd in <br />and now my test passes i&#39;ll do that in  </p>
+<p begin="00:05:44.560" end="00:05:53.440" style="s2">the opposite direction so i&#39;ll test test to int i <br />test that two int of gxd equals one two three four  </p>
+<p begin="00:05:54.480" end="00:06:01.520" style="s2">and when those tests there one two three five <br />gx fgxd that&#39;s why there we go and so now i  </p>
+<p begin="00:06:01.520" end="00:06:07.600" style="s2">have a pasting passing test suite and this can <br />obviously be extended to be a lot more thorough  </p>
+<p begin="00:06:08.880" end="00:06:14.000" style="s2">so the next step is to get this up on github <br />i&#39;m going to create a new github repo called  </p>
+<p begin="00:06:14.000" end="00:06:19.360" style="s2">pids i&#39;ll use the default settings for that <br />and then a handy thing about github is it  </p>
+<p begin="00:06:19.360" end="00:06:23.440" style="s2">just gives you the commands you need to run <br />for you to copy and paste in so i&#39;ll do that  </p>
+<p begin="00:06:23.440" end="00:06:30.880" style="s2">i&#39;m going to git add my readme my <br />pids.pie my setup.pi and that test as well  </p>
+<p begin="00:06:32.320" end="00:06:37.440" style="s2">and then i&#39;ll paste in these four lines here and <br />that will go ahead and create that repository for  </p>
+<p begin="00:06:37.440" end="00:06:42.640" style="s2">me but the really neat thing about github <br />these days is you can use github actions  </p>
+<p begin="00:06:42.640" end="00:06:49.760" style="s2">to run your tests for you um the way you do that <br />is be by creating a github workflows directory  </p>
+<p begin="00:06:49.760" end="00:06:55.760" style="s2">so rather than create that um by hand i&#39;m going <br />to copy that from a project i worked on recently  </p>
+<p begin="00:06:56.480" end="00:07:03.920" style="s2">um my sqlite explain project i happen to know has <br />one of these and i&#39;m going to copy that folder  </p>
+<p begin="00:07:03.920" end="00:07:10.960" style="s2">here so now if we look in here we now <br />have a github folder with a publish  </p>
+<p begin="00:07:10.960" end="00:07:16.160" style="s2">um yaml and a test yaml this right here is the one <br />we&#39;re going to try out first what this does is it  </p>
+<p begin="00:07:16.160" end="00:07:21.840" style="s2">installs the package under four different versions <br />of python runs and runs those tests for us  </p>
+<p begin="00:07:21.840" end="00:07:30.320" style="s2">so i can now do the git add dot <br />github git commit github actions</p>
+<p begin="00:07:30.320" end="00:07:38.000" style="s2">get push and over here github will spot that <br />the those actions have been configured and  </p>
+<p begin="00:07:38.000" end="00:07:42.800" style="s2">start running that test action for me straight <br />away you can see this actually turns into four  </p>
+<p begin="00:07:42.800" end="00:07:48.480" style="s2">different jobs in github actions one for each of <br />those versions of python that we are targeting  </p>
+<p begin="00:07:48.480" end="00:07:52.560" style="s2">and it&#39;s already started running those it&#39;s <br />running them in parallel for all different four  </p>
+<p begin="00:07:52.560" end="00:07:56.560" style="s2">versions all four different versions we look <br />at this one here it&#39;s um set up some caching  </p>
+<p begin="00:07:56.560" end="00:08:00.480" style="s2">it&#39;s called it&#39;s installed dependencies it&#39;s run <br />the tests and they&#39;ve passed and we can see the  </p>
+<p begin="00:08:00.480" end="00:08:05.200" style="s2">green ticks clicking in and just like that our <br />tests have been run on four versions of python  </p>
+<p begin="00:08:05.200" end="00:08:08.400" style="s2">and our commit that even gets a little <br />green tick to show what had happened  </p>
+<p begin="00:08:09.280" end="00:08:14.800" style="s2">so i have one last trick up my sleeve i&#39;m going <br />to push a new release directly from github and  </p>
+<p begin="00:08:14.800" end="00:08:18.800" style="s2">without running anything on my computer at all <br />where i&#39;m going to do this is by creating a  </p>
+<p begin="00:08:18.800" end="00:08:24.720" style="s2">api token on pipi called pids i&#39;m going to <br />give it the scope of being able to publish  </p>
+<p begin="00:08:24.720" end="00:08:31.760" style="s2">to that pids project and that token and i will <br />copy this token and then paste it into the secrets  </p>
+<p begin="00:08:31.760" end="00:08:40.000" style="s2">for my github repository so i can do add secret <br />um call it pypi token and paste it in here and now  </p>
+<p begin="00:08:40.000" end="00:08:45.360" style="s2">anytime i push a release to this github <br />repository my um publish workflow will run  </p>
+<p begin="00:08:45.360" end="00:08:53.840" style="s2">and will publish that release so i&#39;m going to <br />modify my version number let&#39;s call this 0.1.2</p>
+<p begin="00:08:56.000" end="00:09:03.200" style="s2">and i&#39;m going to publish a new release um release <br />it&#39;s create new release it&#39;s going to be called  </p>
+<p begin="00:09:03.200" end="00:09:13.200" style="s2">0.1.2 and let&#39;s just say added added tests will <br />stop i hit the publish button and once again that  </p>
+<p begin="00:09:13.200" end="00:09:19.360" style="s2">action kicks into effect so this is my publish <br />python package action which is running the tests  </p>
+<p begin="00:09:19.360" end="00:09:23.200" style="s2">first because you wouldn&#39;t want to publish a <br />package if you haven&#39;t thoroughly tested it</p>
+<p begin="00:09:26.400" end="00:09:31.040" style="s2">and once the tests have passed it fires <br />up a deploy action which runs that twine  </p>
+<p begin="00:09:31.040" end="00:09:36.880" style="s2">upload script that i showed you earlier so this <br />right here is installing the required packages</p>
+<p begin="00:09:41.520" end="00:09:47.760" style="s2">and now it&#39;s publishing that package up to pipi <br />that&#39;s done and here is a package on pipeli  </p>
+<p begin="00:09:47.760" end="00:09:53.200" style="s2">that was published entirely through automation <br />using github actions so thanks for listening  </p>
+<p begin="00:09:53.200" end="00:10:00.160" style="s2">and i have published extensive notes on this at <br />github.com simon w pi gotham hyphen packaging</p>
+</div>
+</body>
+</tt>
