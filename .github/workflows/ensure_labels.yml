@@ -10,11 +10,11 @@ jobs:
       with:
         script: |
           try {
-            github.rest.issues.createLabel({
+            await github.rest.issues.createLabel({
               ...context.repo,
               name: 'captions'
             });
-            github.rest.issues.createLabel({
+            await github.rest.issues.createLabel({
               ...context.repo,
               name: 'whisper'
             });
