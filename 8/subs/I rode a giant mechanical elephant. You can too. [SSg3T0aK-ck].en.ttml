@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.140" end="00:00:02.800" style="s2">There are a lot of artists<br />and companies around the world</p>
+<p begin="00:00:02.800" end="00:00:05.740" style="s2">that build big moving structures for art.</p>
+<p begin="00:00:05.740" end="00:00:09.420" style="s2">There are plenty of stage shows,<br />theme park attractions, and arena tours,</p>
+<p begin="00:00:09.420" end="00:00:12.600" style="s2">which need massive mechanical stuff<br />to move around.</p>
+<p begin="00:00:12.760" end="00:00:14.670" style="s2">Here in Nantes,<br />in the west of France, though,</p>
+<p begin="00:00:14.670" end="00:00:17.170" style="s2">there&#39;s one place<br />that builds things slightly differently.</p>
+<p begin="00:00:17.170" end="00:00:19.940" style="s2">Les Machines de l&#39;île,<br />the island machines,</p>
+<p begin="00:00:19.940" end="00:00:22.260" style="s2">are best known<br />for their giant mechanical elephant.</p>
+<p begin="00:00:22.260" end="00:00:24.620" style="s2">12 meters high, weighing 48 tons,</p>
+<p begin="00:00:24.620" end="00:00:27.650" style="s2">it regularly &quot;goes for a walk&quot;<br />around the city.</p>
+<p begin="00:00:27.740" end="00:00:31.520" style="s2">But the big difference here is:<br />this offers rides to tourists.</p>
+<p begin="00:00:31.520" end="00:00:33.000" style="s2">Unlike a lot of theme park attractions,</p>
+<p begin="00:00:33.000" end="00:00:35.730" style="s2">not only does the elephant<br />have to put on four shows a day,</p>
+<p begin="00:00:35.730" end="00:00:40.530" style="s2">it has to put on those shows safely<br />with people of all ages on board.</p>
+<p begin="00:00:40.530" end="00:00:44.520" style="s2">The two creators started this<br />because... they could!</p>
+<p begin="00:00:44.520" end="00:00:46.830" style="s2">There was a desire from the mayor</p>
+<p begin="00:00:46.830" end="00:00:52.050" style="s2">to renovate all this place<br />and the project fitted very well.</p>
+<p begin="00:00:52.180" end="00:00:56.260" style="s2">The elephant was constructed<br />at first in 2004,</p>
+<p begin="00:00:56.260" end="00:00:58.540" style="s2">from 2004 to 2007,</p>
+<p begin="00:00:58.540" end="00:01:00.920" style="s2">about 30 months of construction.</p>
+<p begin="00:01:00.920" end="00:01:04.320" style="s2">All the machine that have been made<br />for the project of Les machines de l&#39;île</p>
+<p begin="00:01:04.320" end="00:01:09.550" style="s2">used wood, stainless steel, and leather,<br />mainly these three.</p>
+<p begin="00:01:09.550" end="00:01:12.720" style="s2">We use plastic on some parts,<br />but very few,</p>
+<p begin="00:01:12.720" end="00:01:16.250" style="s2">because we don&#39;t want to use plastic<br />as much as we can.</p>
+<p begin="00:01:16.250" end="00:01:18.660" style="s2">We have hybrid motorization</p>
+<p begin="00:01:18.660" end="00:01:21.300" style="s2">that will power the elephant<br />through the two back wheels.</p>
+<p begin="00:01:21.300" end="00:01:22.670" style="s2">For the legs of the elephants,</p>
+<p begin="00:01:22.670" end="00:01:25.970" style="s2">many people think<br />that they&#39;re making it walk,</p>
+<p begin="00:01:25.970" end="00:01:29.900" style="s2">but if they touch the ground,<br />they do not push him forward.</p>
+<p begin="00:01:29.900" end="00:01:31.950" style="s2">The elephant works as an automaton.</p>
+<p begin="00:01:31.950" end="00:01:37.160" style="s2">For the movement of the head or the ears,<br />the eyes, and also the trunk,</p>
+<p begin="00:01:37.160" end="00:01:39.780" style="s2">they are all programmed in a computer.</p>
+<p begin="00:01:39.780" end="00:01:42.740" style="s2">You have 44 hydraulic cylinders<br />on the machine,</p>
+<p begin="00:01:42.740" end="00:01:47.150" style="s2">6 gas cylinders,<br />and finally, 4 pneumatic cylinders.</p>
+<p begin="00:01:47.150" end="00:01:50.810" style="s2">To make the elephant move,<br />we need at least two people,</p>
+<p begin="00:01:50.810" end="00:01:53.890" style="s2">one pilot, and one guide<br />inside the elephant</p>
+<p begin="00:01:53.890" end="00:01:57.020" style="s2">to assure the safety of people inside,</p>
+<p begin="00:01:57.020" end="00:02:00.020" style="s2">but also to make<br />the scream of the elephant.</p>
+<p begin="00:02:00.020" end="00:02:04.540" style="s2">We may have about<br />200, 300 people around the elephant</p>
+<p begin="00:02:04.540" end="00:02:06.300" style="s2">moving with him during his walk,</p>
+<p begin="00:02:06.300" end="00:02:11.500" style="s2">but we always keep a security perimeter<br />of about five-meter distance</p>
+<p begin="00:02:11.500" end="00:02:14.760" style="s2">between the front wheel and the crowd.</p>
+<p begin="00:02:14.760" end="00:02:17.240" style="s2">The elephant is about 48 tons,</p>
+<p begin="00:02:17.240" end="00:02:23.580" style="s2">so it could be very risky<br />for anyone to get under a leg.</p>
+<p begin="00:02:23.860" end="00:02:26.670" style="s2">Safety here makes a lot more sense<br />when you get close up.</p>
+<p begin="00:02:26.670" end="00:02:29.500" style="s2">Yes, there are a lot of moving parts,<br />particularly, in the middle.</p>
+<p begin="00:02:29.500" end="00:02:31.880" style="s2">We&#39;re not allowed to film,<br />but you don&#39;t get close to them.</p>
+<p begin="00:02:31.880" end="00:02:33.160" style="s2">The same way if you&#39;re riding on a bus,</p>
+<p begin="00:02:33.160" end="00:02:35.380" style="s2">you can&#39;t actually get close<br />to the engine or the wheels.</p>
+<p begin="00:02:35.380" end="00:02:38.480" style="s2">Ultimately, this is a slow<br />and weirdly shaped bus.</p>
+<p begin="00:02:38.480" end="00:02:41.890" style="s2">You can stand up on a bus or a train<br />going 50, 100 times the speed</p>
+<p begin="00:02:41.890" end="00:02:44.050" style="s2">with much sharper<br />acceleration and braking.</p>
+<p begin="00:02:44.050" end="00:02:47.080" style="s2">Now there are places that would&#39;ve made<br />getting on board an exclusive experience,</p>
+<p begin="00:02:47.080" end="00:02:49.290" style="s2">and honestly,<br />if I was in charge of a show like this,</p>
+<p begin="00:02:49.290" end="00:02:50.501" style="s2">I&#39;d be tempted to say that...</p>
+<p begin="00:02:50.501" end="00:02:51.367" style="s2">[elephant screams]</p>
+<p begin="00:02:51.367" end="00:02:53.230" style="s2">yes, maybe a few people can ride,</p>
+<p begin="00:02:53.230" end="00:02:57.340" style="s2">but we&#39;ll charge them €100 each<br />and it&#39;s restricted only to VIPs.</p>
+<p begin="00:02:57.340" end="00:02:58.680" style="s2">[elephant continues screaming]<br />That way... [laughs]</p>
+<p begin="00:02:58.680" end="00:03:00.970" style="s2">That way, it&#39;s much less of a hassle.<br />[scream ends]</p>
+<p begin="00:03:00.970" end="00:03:03.790" style="s2">But a ride on this elephant<br />is less than €10.</p>
+<p begin="00:03:03.790" end="00:03:06.030" style="s2">They have a boarding procedure<br />like an airport</p>
+<p begin="00:03:06.030" end="00:03:08.730" style="s2">and there are 50 passengers<br />allowed on board.</p>
+<p begin="00:03:08.730" end="00:03:10.830" style="s2">The most impressive part<br />of this whole thing for me</p>
+<p begin="00:03:10.830" end="00:03:14.500" style="s2">is not that it works.<br />It&#39;s that it works to theme park standards</p>
+<p begin="00:03:14.500" end="00:03:17.210" style="s2">show after show, day after day,<br />year after year</p>
+<p begin="00:03:17.210" end="00:03:20.080" style="s2">in the real world with people on board,</p>
+<p begin="00:03:20.080" end="00:03:22.590" style="s2">and it&#39;s not the only attraction here.</p>
+<p begin="00:03:22.830" end="00:03:26.010" style="s2">This place is the older warehouse,</p>
+<p begin="00:03:26.010" end="00:03:28.810" style="s2">the old workshop<br />of the division shipyards.</p>
+<p begin="00:03:28.810" end="00:03:30.760" style="s2">Inside the gallery,<br />we have a lot of machines.</p>
+<p begin="00:03:30.760" end="00:03:35.340" style="s2">We have a caterpillar, we have a heron,<br />we have a spider, all giant machines.</p>
+<p begin="00:03:35.340" end="00:03:37.280" style="s2">We have also smaller machines.</p>
+<p begin="00:03:37.280" end="00:03:39.790" style="s2">During the visit,<br />we take randomly a visitor</p>
+<p begin="00:03:39.790" end="00:03:42.440" style="s2">to take part on a trip on the machine,</p>
+<p begin="00:03:42.440" end="00:03:46.100" style="s2">or to move several parts of the machine<br />during the presentation.</p>
+<p begin="00:03:46.100" end="00:03:50.240" style="s2">Every machinist needs training<br />of about one month and a half</p>
+<p begin="00:03:50.240" end="00:03:52.580" style="s2">to move every machine inside the gallery.</p>
+<p begin="00:03:52.580" end="00:03:57.810" style="s2">The most difficult to move is the spider,<br />because it works as an excavator.</p>
+<p begin="00:03:57.810" end="00:04:01.220" style="s2">It&#39;s very complicated, as you move<br />two diggers at the same time.</p>
+<p begin="00:04:01.220" end="00:04:02.590" style="s2">After the spider,</p>
+<p begin="00:04:02.590" end="00:04:06.610" style="s2">the other most complicated machine<br />should be the little heron.</p>
+<p begin="00:04:06.610" end="00:04:07.950" style="s2">&quot;Little&quot; is a euphemism,</p>
+<p begin="00:04:07.950" end="00:04:12.460" style="s2">because it&#39;s about 7.5 meters wingspan</p>
+<p begin="00:04:12.460" end="00:04:14.170" style="s2">and about 3 meters high.</p>
+<p begin="00:04:14.170" end="00:04:17.800" style="s2">We have a lot of parts to move,<br />especially the wings.</p>
+<p begin="00:04:17.800" end="00:04:22.040" style="s2">The Sea World carousel<br />is a carousel about 25 meters high.</p>
+<p begin="00:04:22.040" end="00:04:26.610" style="s2">Inside you find 36 machines,<br />where you can go inside and take a turn.</p>
+<p begin="00:04:26.610" end="00:04:32.980" style="s2">The machines are inspired<br />of fantastic worlds or real sea fish.</p>
+<p begin="00:04:32.980" end="00:04:35.280" style="s2">- A lot of workshops<br />and art projects like this</p>
+<p begin="00:04:35.280" end="00:04:36.440" style="s2">can struggle to pay the rent.</p>
+<p begin="00:04:36.440" end="00:04:38.430" style="s2">Charging people for rides and admission</p>
+<p begin="00:04:38.430" end="00:04:41.520" style="s2">is a great way<br />to make big art like this sustainable.</p>
+<p begin="00:04:41.520" end="00:04:44.410" style="s2">Between the elephant,<br />the gallery, and the carousel,</p>
+<p begin="00:04:44.410" end="00:04:46.930" style="s2">this is basically a small theme park now,</p>
+<p begin="00:04:46.930" end="00:04:49.930" style="s2">but more than that, it&#39;s affected<br />the reputation of the whole town.</p>
+<p begin="00:04:49.930" end="00:04:52.320" style="s2">Some of the funding<br />for building that elephant and all of this</p>
+<p begin="00:04:52.320" end="00:04:53.720" style="s2">came from local government</p>
+<p begin="00:04:53.720" end="00:04:56.260" style="s2">as part of a deliberate attempt<br />to change the city&#39;s image</p>
+<p begin="00:04:56.260" end="00:04:58.670" style="s2">and make it somewhere<br />more appealing to tourists.</p>
+<p begin="00:04:58.670" end="00:05:01.540" style="s2">The question, &quot;why would you<br />want to visit Nantes?&quot;</p>
+<p begin="00:05:01.540" end="00:05:04.660" style="s2">now has an answer:<br />because there&#39;s nowhere else</p>
+<p begin="00:05:04.660" end="00:05:09.060" style="s2">you can ride a giant mechanical elephant<br />and still have change from €10.</p>
+</div>
+</body>
+</tt>
