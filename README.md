@@ -17,7 +17,7 @@ If a video does not have captions, the tool can extract the audio from the video
 
 ## Installation
 
-This GitHub repository acts as a "template repository" - you can create your own copy of the repository [using this form](https://github.com/simonw/click-app-template-repository/generate).
+This GitHub repository acts as a "template repository" - you can create your own copy of the repository [using this form](https://github.com/simonw/action-transcription/generate).
 
 These can be created public or private - public repos get an additional feature and are free to run, while private repos have additional cost.
 
