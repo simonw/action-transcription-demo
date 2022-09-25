@@ -9,11 +9,11 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          github.issues.createLabel({
+          github.rest.issues.createLabel({
             ...context.repo,
             name: 'captions'
           })
-          github.issues.createLabel({
+          github.rest.issues.createLabel({
             ...context.repo,
             name: 'whisper'
           })
