@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.350" end="00:00:10.710" style="s2">March 18, 2018 the shadow of the main choice of the</p>
+<p begin="00:00:06.089" end="00:00:14.549" style="s2">country March 18 the day that decides the</p>
+<p begin="00:00:10.710" end="00:00:16.609" style="s2">fate of Russia the day that determines</p>
+<p begin="00:00:14.549" end="00:00:21.060" style="s2">our future</p>
+<p begin="00:00:16.609" end="00:00:22.220" style="s2">March 18 presidential elections in the Russian</p>
+<p begin="00:00:21.060" end="00:00:25.140" style="s2">Federation</p>
+<p begin="00:00:22.220" end="00:00:28.230" style="s2">every citizen of the country who has reached the age of</p>
+<p begin="00:00:25.140" end="00:00:31.579" style="s2">18 has the right to</p>
+<p begin="00:00:28.230" end="00:00:37.840" style="s2">vote in the presidential elections in Russia</p>
+<p begin="00:00:31.579" end="00:00:40.999" style="s2">March 18 is the day when every vote matters</p>
+<p begin="00:00:37.840" end="00:00:40.999" style="s2">[music  ]</p>
+</div>
+</body>
+</tt>
