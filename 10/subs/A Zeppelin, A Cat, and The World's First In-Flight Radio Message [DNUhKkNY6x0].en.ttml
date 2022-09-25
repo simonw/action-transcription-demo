@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:03.000" style="s2">Tom: I&#39;m with Simon Willison, zeppelin expert.</p>
+<p begin="00:00:03.320" end="00:00:04.000" style="s2">Simon: Hello!</p>
+<p begin="00:00:06.680" end="00:00:08.680" style="s2">Tom: Simon, tell them something they don&#39;t know.</p>
+<p begin="00:00:08.720" end="00:00:09.480" style="s2">Simon: So..</p>
+<p begin="00:00:09.880" end="00:00:12.300" style="s2">In 1910 the airship America</p>
+<p begin="00:00:12.300" end="00:00:16.820" style="s2">made the first ever attempt at a cross Atlantic crossing.</p>
+<p begin="00:00:17.400" end="00:00:21.680" style="s2">And, on the way into the airship one of the engineers scooped up a stray cat,</p>
+<p begin="00:00:21.680" end="00:00:22.780" style="s2">who&#39;d been living in the hangar.</p>
+<p begin="00:00:23.140" end="00:00:24.260" style="s2">The cat, they,</p>
+<p begin="00:00:24.260" end="00:00:26.360" style="s2">they christened the cat Kiddo, put him on the airship.</p>
+<p begin="00:00:26.360" end="00:00:29.000" style="s2">Said: &quot;This will be great, we&#39;ll take him along, he can be the ship&#39;s mascot.&quot;</p>
+<p begin="00:00:29.000" end="00:00:31.440" style="s2">Kiddo was not keen on this idea at all,</p>
+<p begin="00:00:31.440" end="00:00:32.460" style="s2">kicked up a real stink,</p>
+<p begin="00:00:32.640" end="00:00:38.740" style="s2">and so once they got out of the Atlantic they transmitted the first ever radio message from an aircraft,</p>
+<p begin="00:00:39.100" end="00:00:43.360" style="s2">and the message was: &quot;Roy, come and fetch this goddamn cat.&quot;&quot;</p>
+<p begin="00:00:43.360" end="00:00:45.520" style="s2">So, they sent a life boat out to fetch the cat.</p>
+<p begin="00:00:45.520" end="00:00:50.720" style="s2">The cat was put in a bag, lowered down to a boat, really jumpy water,</p>
+<p begin="00:00:50.720" end="00:00:53.920" style="s2">the cat was furious, the waves were too choppy,</p>
+<p begin="00:00:53.920" end="00:00:54.900" style="s2">they couldn&#39;t rescue him.</p>
+<p begin="00:00:54.900" end="00:00:56.680" style="s2">They ended up having to hoist him back on board.</p>
+<p begin="00:00:56.680" end="00:00:57.820" style="s2">&quot;So, okay, we&#39;ll take him with.&quot;</p>
+<p begin="00:00:58.000" end="00:00:59.120" style="s2">The cat then settled down,</p>
+<p begin="00:00:59.120" end="00:01:01.720" style="s2">obviously deciding the airship was a lot better than the bag.</p>
+<p begin="00:01:02.180" end="00:01:05.020" style="s2">And, you know, it settled into the flight.</p>
+<p begin="00:01:05.060" end="00:01:07.100" style="s2">They quickly discovered that he was the perfect companion,</p>
+<p begin="00:01:07.100" end="00:01:08.600" style="s2">because cats are better than barometers:</p>
+<p begin="00:01:08.600" end="00:01:11.440" style="s2">the cat would get grumpy before they hit bad weather,</p>
+<p begin="00:01:11.440" end="00:01:13.560" style="s2">way before any of their instruments could detect it.</p>
+<p begin="00:01:13.560" end="00:01:16.200" style="s2">That was all fine, but they were trying to cross the Atlantic.</p>
+<p begin="00:01:16.200" end="00:01:19.300" style="s2">33 hours in, the airship broke,--</p>
+<p begin="00:01:19.300" end="00:01:21.640" style="s2">possibly because of sand that they picked up earlier--</p>
+<p begin="00:01:21.640" end="00:01:23.160" style="s2">they couldn&#39;t steer it, they found themselves adrift.</p>
+<p begin="00:01:23.280" end="00:01:26.740" style="s2">They eventually spotted a Royal Mail ship out at sea,</p>
+<p begin="00:01:26.740" end="00:01:28.920" style="s2">managed to signal SOS to them,</p>
+<p begin="00:01:28.920" end="00:01:30.620" style="s2">got rescued by it.</p>
+<p begin="00:01:30.660" end="00:01:33.860" style="s2">And I think they made the first ever aerial SOS call as well.</p>
+<p begin="00:01:33.860" end="00:01:35.540" style="s2">And they were rescued, along with the cat.</p>
+<p begin="00:01:35.540" end="00:01:37.340" style="s2">The airship floated off and was never seen again.</p>
+<p begin="00:01:37.460" end="00:01:39.160" style="s2">The Royal Mail ship went back to New York,</p>
+<p begin="00:01:39.160" end="00:01:44.020" style="s2">where Kiddo was put on display in the window of a fancy department store with a diamond necklace on</p>
+<p begin="00:01:44.020" end="00:01:45.940" style="s2">as a celebrity cat,</p>
+<p begin="00:01:45.940" end="00:01:49.220" style="s2">and he really did live the rest of his life out on the farm.</p>
+<p begin="00:01:49.980" end="00:01:53.700" style="s2">Tom: Simon, thank you very much! That is something you might not have known.</p>
+<p begin="00:01:54.200" end="00:01:54.740" style="s2">Simon: Thank you!</p>
+<p begin="00:01:55.960" end="00:01:57.700" style="s2">[Closed captions by MM. Translating these subtitles? Add your name here!]</p>
+</div>
+</body>
+</tt>
