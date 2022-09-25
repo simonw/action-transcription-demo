@@ -13,11 +13,11 @@ jobs:
             github.rest.issues.createLabel({
               ...context.repo,
               name: 'captions'
-            })
+            });
             github.rest.issues.createLabel({
               ...context.repo,
               name: 'whisper'
-            })
-          } catch() {
+            });
+          } catch(e) {
             // Ignore if labels exist already
           }
