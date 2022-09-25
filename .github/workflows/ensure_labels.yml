@@ -1,0 +1,19 @@
+name: Ensure labels
+on: [push]
+
+jobs:
+  ensure_labels:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create labels
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.issues.createLabel({
+            ...context.repo,
+            name: 'captions'
+          })
+          github.issues.createLabel({
+            ...context.repo,
+            name: 'whisper'
+          })
