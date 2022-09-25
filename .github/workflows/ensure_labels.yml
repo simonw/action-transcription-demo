@@ -9,11 +9,15 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          github.rest.issues.createLabel({
-            ...context.repo,
-            name: 'captions'
-          })
-          github.rest.issues.createLabel({
-            ...context.repo,
-            name: 'whisper'
-          })
+          try {
+            github.rest.issues.createLabel({
+              ...context.repo,
+              name: 'captions'
+            })
+            github.rest.issues.createLabel({
+              ...context.repo,
+              name: 'whisper'
+            })
+          } catch() {
+            // Ignore if labels exist already
+          }
