@@ -9,7 +9,7 @@ Simon Willison - [@simonw](https://twitter.com/simonw) - [simonwillison.net](htt
 
 Action Transcription supports archiving and searching the transcripts of videos from multiple different video hosting platforms.
 
-It runs on GitHub to take advantage of the free GitHub Actions code running mechanism - but importantly it does not require any use any tools aside from the user's browser, even to setup new instances of the tool.
+It runs on GitHub to take advantage of the free GitHub Actions code running mechanism - but importantly it does not require, or use any tools aside from the user's browser, even to setup new instances of the tool.
 
 If a video has captions, this tool can be used to retrieve and store those captions.
 
