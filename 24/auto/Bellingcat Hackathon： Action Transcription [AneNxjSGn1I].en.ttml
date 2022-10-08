@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:04.259" style="s2">this project is called action</p>
+<p begin="00:00:01.800" end="00:00:07.080" style="s2">transcription the idea is to give people</p>
+<p begin="00:00:04.259" end="00:00:10.019" style="s2">a tool that lets them build a ongoing</p>
+<p begin="00:00:07.080" end="00:00:11.639" style="s2">repository and Archive of the captions</p>
+<p begin="00:00:10.019" end="00:00:13.860" style="s2">of dip videos from different social</p>
+<p begin="00:00:11.639" end="00:00:15.780" style="s2">media sites including those cam captions</p>
+<p begin="00:00:13.860" end="00:00:18.480" style="s2">translated into English</p>
+<p begin="00:00:15.780" end="00:00:22.020" style="s2">so we&#39;ll do a very quick demo um here is</p>
+<p begin="00:00:18.480" end="00:00:24.180" style="s2">a YouTube video that is in Russia</p>
+<p begin="00:00:22.020" end="00:00:26.760" style="s2">um and actually does have YouTube</p>
+<p begin="00:00:24.180" end="00:00:28.859" style="s2">generated captions so the way you use</p>
+<p begin="00:00:26.760" end="00:00:30.599" style="s2">this tool is you file GitHub issues I</p>
+<p begin="00:00:28.859" end="00:00:32.220" style="s2">can paste the URL in here I can tell it</p>
+<p begin="00:00:30.599" end="00:00:34.800" style="s2">that I&#39;d like to extract the captions</p>
+<p begin="00:00:32.220" end="00:00:36.899" style="s2">click the button and that&#39;s it that&#39;s</p>
+<p begin="00:00:34.800" end="00:00:39.180" style="s2">the entire user interface for end users</p>
+<p begin="00:00:36.899" end="00:00:40.920" style="s2">so having done this what my tool is</p>
+<p begin="00:00:39.180" end="00:00:43.680" style="s2">doing is it&#39;s spinning up a GitHub</p>
+<p begin="00:00:40.920" end="00:00:45.780" style="s2">actions task so this right here triggers</p>
+<p begin="00:00:43.680" end="00:00:47.940" style="s2">when a new issue is created it installs</p>
+<p begin="00:00:45.780" end="00:00:49.379" style="s2">various bits of software it uses the</p>
+<p begin="00:00:47.940" end="00:00:51.420" style="s2">YouTube DL</p>
+<p begin="00:00:49.379" end="00:00:53.520" style="s2">um command line tool to pull back the</p>
+<p begin="00:00:51.420" end="00:00:55.140" style="s2">captions from that video and then it</p>
+<p begin="00:00:53.520" end="00:00:56.520" style="s2">saves those captions back into the</p>
+<p begin="00:00:55.140" end="00:00:57.840" style="s2">repository the user doesn&#39;t need to know</p>
+<p begin="00:00:56.520" end="00:01:01.020" style="s2">this is happening though they&#39;re just</p>
+<p begin="00:00:57.840" end="00:01:03.120" style="s2">sitting here and about 30 seconds after</p>
+<p begin="00:01:01.020" end="00:01:05.640" style="s2">they initially filed that issue the</p>
+<p begin="00:01:03.120" end="00:01:07.320" style="s2">action will do its work and it&#39;ll reply</p>
+<p begin="00:01:05.640" end="00:01:08.760" style="s2">to this issue with comments that will</p>
+<p begin="00:01:07.320" end="00:01:10.920" style="s2">give them the data they want so this is</p>
+<p begin="00:01:08.760" end="00:01:13.140" style="s2">some logging data then here is the</p>
+<p begin="00:01:10.920" end="00:01:15.119" style="s2">English translation from from the</p>
+<p begin="00:01:13.140" end="00:01:16.320" style="s2">YouTube automated translations of that</p>
+<p begin="00:01:15.119" end="00:01:18.240" style="s2">video</p>
+<p begin="00:01:16.320" end="00:01:20.640" style="s2">um so that gets applied here it also</p>
+<p begin="00:01:18.240" end="00:01:22.200" style="s2">gets saved into the repository itself so</p>
+<p begin="00:01:20.640" end="00:01:23.640" style="s2">we&#39;ve now got a permanent record of that</p>
+<p begin="00:01:22.200" end="00:01:26.340" style="s2">which I can then write additional</p>
+<p begin="00:01:23.640" end="00:01:28.560" style="s2">software against to to analyze that now</p>
+<p begin="00:01:26.340" end="00:01:30.900" style="s2">that was the demo using YouTube comments</p>
+<p begin="00:01:28.560" end="00:01:32.759" style="s2">the other thing this can do is if you</p>
+<p begin="00:01:30.900" end="00:01:34.920" style="s2">tag your issue with whisper that&#39;s the</p>
+<p begin="00:01:32.759" end="00:01:37.380" style="s2">name of an AI model it can take a video</p>
+<p begin="00:01:34.920" end="00:01:38.820" style="s2">in this case this video on VK entirely</p>
+<p begin="00:01:37.380" end="00:01:41.280" style="s2">in Russian with no English translations</p>
+<p begin="00:01:38.820" end="00:01:43.140" style="s2">at all and it can run that through an AI</p>
+<p begin="00:01:41.280" end="00:01:44.939" style="s2">which will transcribe the Russian but</p>
+<p begin="00:01:43.140" end="00:01:47.220" style="s2">will also provide an English translation</p>
+<p begin="00:01:44.939" end="00:01:49.560" style="s2">in incredibly high quality one so this</p>
+<p begin="00:01:47.220" end="00:01:51.600" style="s2">this right here is doing a whole bunch</p>
+<p begin="00:01:49.560" end="00:01:53.700" style="s2">of additional work to turn that video</p>
+<p begin="00:01:51.600" end="00:01:55.560" style="s2">into something that&#39;s um that&#39;s readable</p>
+<p begin="00:01:53.700" end="00:01:57.659" style="s2">and usable again the results of that</p>
+<p begin="00:01:55.560" end="00:01:59.579" style="s2">have been saved in this repository which</p>
+<p begin="00:01:57.659" end="00:02:02.280" style="s2">means that we can analyze them and build</p>
+<p begin="00:01:59.579" end="00:02:04.200" style="s2">search and things against them later on</p>
+<p begin="00:02:02.280" end="00:02:06.479" style="s2">to try this thing out the way you do it</p>
+<p begin="00:02:04.200" end="00:02:10.319" style="s2">is you click use this template to create</p>
+<p begin="00:02:06.479" end="00:02:12.360" style="s2">your own copy of this repository and</p>
+<p begin="00:02:10.319" end="00:02:14.160" style="s2">that&#39;s um this is using GitHub template</p>
+<p begin="00:02:12.360" end="00:02:16.020" style="s2">repositories but anyone who does this</p>
+<p begin="00:02:14.160" end="00:02:18.000" style="s2">gets their own version which will run</p>
+<p begin="00:02:16.020" end="00:02:20.459" style="s2">under their own GitHub account and will</p>
+<p begin="00:02:18.000" end="00:02:22.620" style="s2">allow them to once again start filing</p>
+<p begin="00:02:20.459" end="00:02:24.420" style="s2">issues to start capturing things in this</p>
+<p begin="00:02:22.620" end="00:02:26.400" style="s2">new unique database for their own</p>
+<p begin="00:02:24.420" end="00:02:27.900" style="s2">project so I&#39;m hoping that despite this</p>
+<p begin="00:02:26.400" end="00:02:29.400" style="s2">being built up on top of GitHub</p>
+<p begin="00:02:27.900" end="00:02:31.319" style="s2">everything is available through the</p>
+<p begin="00:02:29.400" end="00:02:32.400" style="s2">browser users who aren&#39;t familiar with</p>
+<p begin="00:02:31.319" end="00:02:34.200" style="s2">the command line don&#39;t even know what</p>
+<p begin="00:02:32.400" end="00:02:37.280" style="s2">git is will still be able to use this</p>
+<p begin="00:02:34.200" end="00:02:37.280" style="s2">given the right guidance</p>
+</div>
+</body>
+</tt>
